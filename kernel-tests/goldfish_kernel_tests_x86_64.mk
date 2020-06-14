@@ -24,8 +24,8 @@ BOARD_HAVE_BLUETOOTH := false
 
 SYSTEM_CORE_ROOTDIR := system/core/rootdir
 PREBUILTS := prebuilts
-GOLDFISH_DIR := device/generic/goldfish
-THIS_DIR := device/generic/goldfish/kernel-tests
+GOLDFISH_DIR := device/rnbox/goldfish
+THIS_DIR := device/rnbox/goldfish/kernel-tests
 
 # android.hardware.
 PRODUCT_PACKAGES += \

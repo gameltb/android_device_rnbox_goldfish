@@ -13,7 +13,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.config.notification_sound=pixiedust.ogg
 
 # Emulator for vendor
-$(call inherit-product-if-exists, device/generic/goldfish/x86-vendor.mk)
+$(call inherit-product-if-exists, device/rnbox/goldfish/x86-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulator_vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/board/generic_x86/device.mk)
 
